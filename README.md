@@ -31,21 +31,21 @@ git checkout feature/<branch-name>
 3. Make the changes into your branch.
 
 4. Add the new and updated files.
-```
-# Check the files changed
-git status
-git add <space seperated list of files changed and to be added>
-```
+   ```
+   # Check the files changed
+   git status
+   git add <space seperated list of files changed and to be added>
+   ```
 5. Commit the changes
-```
-git commit -m "<Add a relevant message for the changes you have made in the added files>"
-```
-**Note: Add a relevant message with all commits.**
+   ```
+   git commit -m "<Add a relevant message for the changes you have made in the added files>"
+   ```
+   **Note: Add a relevant message with all commits.**
 
 6. Push the changes into your branch
-```
-git push origin <branch-name>
-```
+   ```
+   git push origin <branch-name>
+   ```
 **Note: Always give your branch name in the push command.**
 
 7. Create a PR to push your changes into master branch. 
